@@ -121,14 +121,14 @@ int main() {
     }
 
     // Escreve o vetor ordenado por Insertion Sort em um arquivo de saída
-    if (arquivoSaida("insertion_sort.out", V, n) != 0) {
+    if (arquivoSaida("insertion_sort.txt", V, n) != 0) {
         free(V);
         free(V_copy);
         return 1; 
     }
 
     // Escreve o vetor ordenado por Selection Sort em um arquivo de saída
-    if (arquivoSaida("selection_sort.out", V_copy, n) != 0) {
+    if (arquivoSaida("selection_sort.txt", V_copy, n) != 0) {
         free(V);
         free(V_copy);
         return 1; 
