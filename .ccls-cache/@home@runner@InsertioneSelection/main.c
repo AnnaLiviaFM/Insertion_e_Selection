@@ -95,9 +95,9 @@ int main() {
     fim = clock();
     tempoInsertion = ((double) (fim - inicio)) / CLOCKS_PER_SEC;
 
-    printf("Array ordenado utilizando Insertion Sort: \n");
-    printarArray(V, n, stdout);
-    printf("\n");
+    //printf("Array ordenado utilizando Insertion Sort: \n");
+    //printarArray(V, n, stdout);
+    //printf("\n");
     printf("Insertion Sort levou %f segundos para executar \n", tempoInsertion);
 
     // Tempo do Selection Sort
@@ -106,9 +106,9 @@ int main() {
     fim = clock();
     tempoSelection = ((double) (fim - inicio)) / CLOCKS_PER_SEC;
 
-    printf("Array ordenado utilizando Selection Sort: \n");
-    printarArray(V_copy, n, stdout);
-    printf("\n");
+    //printf("Array ordenado utilizando Selection Sort: \n");
+    //printarArray(V_copy, n, stdout);
+    //printf("\n");
     printf("Selection Sort levou %f segundos para executar \n", tempoSelection);
 
     // Comparando Insertion Sort e Selection Sort
